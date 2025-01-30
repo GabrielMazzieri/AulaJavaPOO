@@ -6,6 +6,8 @@ public class Main {
         Pessoa pessoa1 = new Pessoa();
         pessoa1.nome = "Gabriel";
 
+        p
+
         System.out.println(pessoa1.nome);
     }
 }
