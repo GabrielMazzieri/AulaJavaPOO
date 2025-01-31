@@ -28,7 +28,7 @@ public class Main {
                         "SP"
                 )
         );
-p
+
         System.out.println(pessoa1.endereco.rua);
         pessoa1.falar("Olá!");
         pessoa2.falar("Oi, tudo bem?");
