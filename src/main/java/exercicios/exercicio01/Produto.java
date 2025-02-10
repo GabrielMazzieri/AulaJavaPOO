@@ -12,22 +12,21 @@ public class Produto {
     }
 
     public void exibirDetalhes() {
-        System.out.printf("Nome do produto: %s, Preço: %,.2f, Quantidade: %d",
+        System.out.printf("\nNome do produto: %s | Preço: R$%,.2f | Quantidade: %d unidades",
                 nomeProduto, precoProduto, qtdProduto);
     }
 
     public void atualizaEstoque(int atualizarEstoque) {
-        if (atualizarEstoque < 0) {
-            qtdProduto -= atualizarEstoque;
-            System.out.printf("Valor atualizado para: %d", qtdProduto);
-        } else if (atualizarEstoque > 0) {
+        if (qtdProduto + atualizarEstoque >= 0) {
             qtdProduto += atualizarEstoque;
-            System.out.printf("Valor atualizado para: %d", qtdProduto);
+            System.out.printf("\nValor atualizado para: %d unidades", qtdProduto);
+        } else {
+            System.out.println("O valor do estoque não pode ser negativo :/");
         }
     }
 
     public void calcularValorEstoque() {
-        float calculo = this.precoProduto + this.qtdProduto;
-        System.out.println(calculo);
+        float calculo = this.precoProduto * this.qtdProduto;
+        System.out.printf("\n\n\tValor total do estoque: R$%,.2f\n", calculo);
     }
 }
