@@ -1,4 +1,4 @@
-package exercicios.exercicio02;
+package com.senai.aula01_introducao_poo.exemplos.exercicios.exercicio02;
 
 public class Aluno {
     String nomeAluno;
