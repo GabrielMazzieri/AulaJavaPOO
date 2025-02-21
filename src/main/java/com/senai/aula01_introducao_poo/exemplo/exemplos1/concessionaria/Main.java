@@ -1,4 +1,4 @@
-package com.senai.aula01_introducao_poo.exemplos.concessionaria;
+package com.senai.aula01_introducao_poo.exemplo.exemplos1.concessionaria;
 
 
 public class Main {

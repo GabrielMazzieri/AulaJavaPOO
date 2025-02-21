@@ -4,6 +4,11 @@ import java.util.ArrayList;
 
 public class Tarefa {
     String tarefaAdd;
-    Boolean realizadas;
-    ArrayList tarefas = new ArrayList();
+    Boolean status;
+
+    public Tarefa(String tarefaAdd, Boolean status) {
+        this.tarefaAdd = tarefaAdd;
+        this.status = true;
+    }
+
 }

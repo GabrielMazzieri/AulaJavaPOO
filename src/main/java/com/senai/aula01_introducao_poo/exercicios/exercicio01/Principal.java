@@ -1,4 +1,4 @@
-package com.senai.aula01_introducao_poo.exemplos.exercicios.exercicio01;
+package com.senai.aula01_introducao_poo.exercicios.exercicio01;
 
 import java.util.Scanner;
 
