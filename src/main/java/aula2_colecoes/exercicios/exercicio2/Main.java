@@ -1,7 +1,5 @@
 package aula2_colecoes.exercicios.exercicio2;
-
 import aula2_colecoes.exercicios.exercicio1.Tarefa;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
