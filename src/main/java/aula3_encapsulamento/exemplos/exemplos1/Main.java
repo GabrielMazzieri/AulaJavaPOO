@@ -1,4 +1,4 @@
-package aula3_encapsulamento.exemplos.exemplo1;
+package aula3_encapsulamento.exemplos.exemplos1;
 
 public class Main {
     public static void main(String[] args) {
