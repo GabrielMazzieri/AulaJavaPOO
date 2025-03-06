@@ -1,4 +1,4 @@
-package aula3_encapsulamento.exercicios.exercicio1;
+package com.senai.aula3_encapsulamento.exercicios.cadastro_de_produto_simples;
 
 public class Produto {
     private String nome;

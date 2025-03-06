@@ -1,9 +1,8 @@
-package aula2_colecoes.exemplos.pessoa;
+package com.senai.aula2_colecoes.exemplos.exemplo1;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
