@@ -27,6 +27,5 @@ public class Produto {
         } else {
             throw new IllegalArgumentException("O valor do produto não pode ser negativo");
         }
-
     }
 }
