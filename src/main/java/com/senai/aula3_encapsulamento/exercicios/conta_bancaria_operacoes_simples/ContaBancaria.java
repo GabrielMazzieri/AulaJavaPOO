@@ -22,7 +22,7 @@ public class ContaBancaria {
         }
     }
 
-    public void sacar(double valor){
+    public boolean sacar(double valor){
         if (valor <= this.saldo && valor > 0){
             this.saldo-=valor;
             System.out.println("Saque realizado. Saldo atual: R$" + getSaldo());
@@ -31,7 +31,14 @@ public class ContaBancaria {
         } else {
             throw new RuntimeException("ERRO: Valor do saque negativo");
         }
+        return false;
     }
+
+    public void transferir(double valor, ContaBancaria contaDestino) {
+        if (this.sacar(valor))
+            contaDestino.depositar(valor);
+        }
+
 
     public String getTitular(){
         return titular;
@@ -39,5 +46,13 @@ public class ContaBancaria {
 
     public double getSaldo(){
         return saldo;
+    }
+
+    @Override
+    public String toString() {
+        return "ContaBancaria{" +
+                "titular" + titular + '\'' +
+                ", saldo=" + saldo +
+                '}';
     }
 }

@@ -6,6 +6,5 @@ public class Main {
 
         carro1.setVelocidade(120);
         System.out.println(carro1.getVelocidade());
-
     }
 }

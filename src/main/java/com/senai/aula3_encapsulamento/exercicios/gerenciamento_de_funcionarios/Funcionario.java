@@ -16,7 +16,7 @@ public class Funcionario {
     }
 
     public void setNome(String nome){
-        if (nome == null || nome.isEmpty()){
+        if (nome == null || nome.isBlank()){
             throw new RuntimeException("ERRO: Deve ter um nome.");
         } else {
             this.nome = nome;
