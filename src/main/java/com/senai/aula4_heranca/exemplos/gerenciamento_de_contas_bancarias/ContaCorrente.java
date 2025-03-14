@@ -18,15 +18,14 @@ public class ContaCorrente extends ContaBancaria {
 
     @Override
     public boolean sacar(double valor){
-        if (valor <= this.saldo && valor > 0){
-            this.saldo-=valor;
+        if (valor > 0 && valor <= saldo+limite){
+            saldo-=valor;
             System.out.println("Saque realizado. Saldo atual: R$" + getSaldo());
         } else if (valor > this.saldo){
             throw new RuntimeException("ERRO: Saldo insuficiente");
         } else {
-            throw new RuntimeException("ERRO: Valor do saque negativo");
+            System.out.println("O Valor do saque é negativo");
         }
         return false;
     }
-
 }
