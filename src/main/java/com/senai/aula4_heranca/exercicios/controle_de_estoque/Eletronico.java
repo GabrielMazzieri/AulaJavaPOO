@@ -23,7 +23,6 @@ public class Eletronico extends Produto{
     public void exibirDetalhes(){
         System.out.printf("\nNome do Produto: %s | Preço: %,.2f | Quantidade: %d | Tensão Elétrica: %dV", getNome(), getPreco(), getQuantidade(), tensao);
     }
-
 }
 
 
