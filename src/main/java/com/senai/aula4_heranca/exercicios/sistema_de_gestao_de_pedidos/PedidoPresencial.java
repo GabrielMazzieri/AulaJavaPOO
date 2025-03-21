@@ -13,11 +13,13 @@ public class PedidoPresencial extends Pedido {
     }
 
     public void setPagamentoAVista(double pagamentoAVista) {
-        this.pagamentoAVista = getValorTotal() - pagamentoAVista;
+        this.pagamentoAVista = pagamentoAVista;
+    }
+    public double valorFinalPresencial(){
+        return getValorTotal() - pagamentoAVista;
     }
 
     public void exibirDetalhes(){
-        System.out.printf("Número Pedido: %d | Valor Total com Entrega: %,.2f", getNumPedido(), pagamentoAVista);
+        System.out.printf("\nNúmero Pedido: %d | Valor do Desconto: R$%,.2f | Valor Total com Desconto: R$%,.2f", getNumPedido(), pagamentoAVista, valorFinalPresencial());
     }
-
 }

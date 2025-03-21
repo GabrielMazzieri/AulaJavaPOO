@@ -13,10 +13,14 @@ public class PedidoOnline extends Pedido{
     }
 
     public void setTaxaEntrega(double taxaEntrega) {
-        this.taxaEntrega = getValorTotal() + taxaEntrega;
+        this.taxaEntrega = taxaEntrega;
+    }
+
+    public double valorTotalComTaxa(){
+        return getValorTotal() + taxaEntrega;
     }
 
     public void exibirDetalhes(){
-        System.out.printf("Número Pedido: %d | Valor Total com Entrega: %,.2f", getNumPedido(), taxaEntrega);
+        System.out.printf("\nNúmero Pedido: %d | Taxa de Entrega: R$%,.2f | Valor Total com Entrega: R$%,.2f", getNumPedido(), taxaEntrega, valorTotalComTaxa());
     }
 }
