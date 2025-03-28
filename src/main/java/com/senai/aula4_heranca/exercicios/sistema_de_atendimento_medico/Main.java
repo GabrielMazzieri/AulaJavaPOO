@@ -8,8 +8,5 @@ public class Main {
         pacienteParticular1.exibirDetalhes();
         pacienteConvenio1.exibirDetalhes();
 
-
-
-
     }
 }

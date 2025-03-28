@@ -17,6 +17,6 @@ public class pacienteParticular extends Paciente {
     }
 
     public void exibirDetalhes(){
-        System.out.printf("Nome do Paciente: %s | Idade: %d | Valor da Consulta: %,.2f", getNome(), getIdade(), valorConsulta);
+        System.out.printf("\nNome do Paciente: %s | Idade: %d | Valor da Consulta: %,.2f", getNome(), getIdade(), valorConsulta);
     }
 }
