@@ -13,6 +13,6 @@ public class DesafioRelampago implements Evento{
 
     @Override
     public void premiarParticipantes() {
-        System.out.println("Premiação Relãmpago");
+        System.out.println("Premiação Relãmpago!");
     }
 }
