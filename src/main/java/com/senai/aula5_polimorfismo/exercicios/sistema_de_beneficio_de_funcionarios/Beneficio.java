@@ -2,11 +2,11 @@ package com.senai.aula5_polimorfismo.exercicios.sistema_de_beneficio_de_funciona
 
 public class Beneficio {
     protected String nome;
-    protected double valor;
+    protected double salario;
 
-    public Beneficio(String nome, double valor) {
+    public Beneficio(String nome, double salario) {
         this.nome = nome;
-        this.valor = valor;
+        this.salario = salario;
     }
 
     public double calcularDesconto(){
@@ -14,6 +14,6 @@ public class Beneficio {
     }
 
     public void exibirDetalhes(){
-        System.out.printf("Nome Funcionário: %s | Salário sem Desconto: %,.2f | Salário com Desconto: %,.2f", nome, valor, calcularDesconto());
+        System.out.printf("Nome Funcionário: %s | Salário sem Desconto: R$%,.2f | Valor Descontado: R$%,.2f | Total Com Desconto: R$%,.2f", nome, salario, calcularDesconto(), salario-calcularDesconto());
     }
 }

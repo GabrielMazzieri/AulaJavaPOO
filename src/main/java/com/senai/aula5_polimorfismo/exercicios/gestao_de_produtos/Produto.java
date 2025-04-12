@@ -14,6 +14,6 @@ public class Produto {
     }
 
     public void exibirDetalhes(){
-        System.out.printf("Nome do Produto: %s | Valor Base: %,.2f | valor Final: %,.2f", nomeProduto, valorProduto, calcularValor());
+        System.out.printf("Nome do Produto: %s | Valor Base: %,.2f | salario Final: %,.2f", nomeProduto, valorProduto, calcularValor());
     }
 }

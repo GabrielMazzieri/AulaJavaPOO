@@ -17,7 +17,7 @@ public class Principal {
                 3
         );
 
-        System.out.println("Coloque um valor para atualizar estoque (adicione '-' para diminuir, ex: -5: ");
+        System.out.println("Coloque um salario para atualizar estoque (adicione '-' para diminuir, ex: -5: ");
         int valorMudanca = sc.nextInt();
 
         produto1.atualizaEstoque(valorMudanca);

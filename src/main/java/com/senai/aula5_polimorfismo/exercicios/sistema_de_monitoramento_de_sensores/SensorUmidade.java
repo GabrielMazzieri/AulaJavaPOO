@@ -7,6 +7,6 @@ public class SensorUmidade extends Sensor {
 
     @Override
     public void exibirDetalhes() {
-        System.out.printf("Nome do Sensor: %s | Valor de: %,.2f%% ", nome, valor);
+        System.out.printf("Nome do Sensor: %s | Valor de Umidade: %,.2f%% ", nome, valor);
     }
 }

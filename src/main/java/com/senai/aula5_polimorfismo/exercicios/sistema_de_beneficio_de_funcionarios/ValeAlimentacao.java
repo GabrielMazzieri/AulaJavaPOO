@@ -7,6 +7,6 @@ public class ValeAlimentacao extends Beneficio{
 
     @Override
     public double calcularDesconto() {
-        return valor*0.08;
+        return salario *0.02;
     }
 }

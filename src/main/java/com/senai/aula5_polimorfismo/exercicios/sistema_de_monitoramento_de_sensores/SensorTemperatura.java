@@ -7,6 +7,6 @@ public class SensorTemperatura extends Sensor{
 
     @Override
     public void exibirDetalhes() {
-        System.out.printf("Nome do Sensor: %s | Valor de: %,.2fºC ", nome, valor);
+        System.out.printf("Nome do Sensor: %s | Valor de Temperatura: %,.2fºC ", nome, valor);
     }
 }

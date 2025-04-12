@@ -21,7 +21,7 @@ public class Produto {
             qtdProduto += atualizarEstoque;
             System.out.printf("\nValor atualizado para: %d unidades", qtdProduto);
         } else {
-            System.out.println("O valor do estoque não pode ser negativo :/");
+            System.out.println("O salario do estoque não pode ser negativo :/");
         }
     }
 

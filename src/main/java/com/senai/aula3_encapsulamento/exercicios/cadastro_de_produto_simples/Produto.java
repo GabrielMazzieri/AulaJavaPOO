@@ -25,7 +25,7 @@ public class Produto {
         if(preco >= 0) {
             this.preco = preco;
         } else {
-            throw new IllegalArgumentException("O valor do produto não pode ser negativo");
+            throw new IllegalArgumentException("O salario do produto não pode ser negativo");
         }
     }
 }

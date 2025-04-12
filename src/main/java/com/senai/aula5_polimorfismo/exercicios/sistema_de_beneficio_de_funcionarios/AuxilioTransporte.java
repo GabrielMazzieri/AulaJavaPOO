@@ -7,6 +7,6 @@ public class AuxilioTransporte extends Beneficio{
 
     @Override
     public double calcularDesconto() {
-        return valor*0.05;
+        return salario *0.05;
     }
 }

@@ -1,8 +1,6 @@
-/*package com.senai.aula6_abstracao.exemplos.exemplos_classe_abstrata.conta_bancaria;
+package com.senai.aula6_abstracao.exemplos.exemplos_classe_abstrata.conta_bancaria;
 
-import com.senai.aula4_heranca.exemplos.gerenciamento_de_contas_bancarias.ContaBancaria;
-
-public class ContaPoupanca extends ContaBancaria {
+public class ContaPoupanca extends ContaCorrente {
     public ContaPoupanca(String titular, double saldo) {
         super(titular, saldo);
     }
@@ -11,4 +9,4 @@ public class ContaPoupanca extends ContaBancaria {
     void aplicarTaxaMensal(){
         saldo-=20;
    }
-}*/
+}

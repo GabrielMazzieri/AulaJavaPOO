@@ -24,7 +24,7 @@ public class Main {
                 3f
         );
 
-        System.out.println("Digite o valor atualizado da nota: ");
+        System.out.println("Digite o salario atualizado da nota: ");
         float notaAtualizada = sc.nextFloat();
 
         aluno2.atualizaNota(notaAtualizada);

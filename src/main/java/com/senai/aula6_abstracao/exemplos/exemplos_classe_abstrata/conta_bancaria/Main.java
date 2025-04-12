@@ -1,4 +1,4 @@
-/*package com.senai.aula6_abstracao.exemplos.exemplos_classe_abstrata.conta_bancaria;
+package com.senai.aula6_abstracao.exemplos.exemplos_classe_abstrata.conta_bancaria;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,4 +10,4 @@ public class Main {
         contaBancaria.aplicarTaxaMensal();
         contaBancaria.exibirSaldo();
     }
-}*/
+}
