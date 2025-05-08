@@ -64,7 +64,7 @@ public class Main {
                         opController.listarOperadores().forEach(System.out::println);
 
                     else if (escolhaTipo == 2)
-                        supController.listarSupervisores().forEach(System.out::println);
+                        supController.listarSupervisor().forEach(System.out::println);
                         System.out.println("Escolha um usuário para deletar: ");
                         id = sc.nextInt();
                         sc.nextLine();
@@ -80,7 +80,7 @@ public class Main {
                         opController.listarOperadores().forEach(System.out::println);
 
                     else if (escolhaTipo == 2)
-                        supController.listarSupervisores().forEach(System.out::println);
+                        supController.listarSupervisor().forEach(System.out::println);
                         System.out.println("Escolha um usuário para atualizar: ");
                         id = sc.nextInt();
                         sc.nextLine();
@@ -97,7 +97,7 @@ public class Main {
                         System.out.println("Área: ");
                         String area = sc.nextLine();
                         Supervisor supervisor = new Supervisor(nome, id, area);
-                        opController.atualizarSupervisor(supervisor);
+                        supController.atualizarSupervisor(supervisor);
                     }
                     System.out.println("Usuário Atualizado!");
                     break;
@@ -107,7 +107,7 @@ public class Main {
                         opController.listarOperadores().forEach(System.out::println);
 
                     else if (escolhaTipo == 2)
-                        supController.listarSupervisores().forEach(System.out::println);
+                        supController.listarSupervisor().forEach(System.out::println);
                     break;
 
                 case 5:
